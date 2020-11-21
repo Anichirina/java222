@@ -4,7 +4,7 @@ public class Main {
         BmiService service = new BmiService();
         float weight = 63F;
         float growth = 165F;
-        float index = service.calculate( weight, growth);
-                System.out.println(index);
+        float index = service.calculate(weight, growth);
+        System.out.println(index);
     }
 }
